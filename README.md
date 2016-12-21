@@ -1,0 +1,2 @@
+# BookingServiceLibrary
+Example WCF service
