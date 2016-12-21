@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="BookingData.cs" />
     <Compile Include="BookingInterface.cs" />
+    <Compile Include="BookingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

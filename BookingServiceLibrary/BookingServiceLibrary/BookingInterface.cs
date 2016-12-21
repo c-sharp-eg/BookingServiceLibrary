@@ -8,12 +8,13 @@ using System.Threading.Tasks;
 namespace BookingServiceLibrary
 {
     [ServiceContract]
-    public interface BookingInterface
+    public interface IBooking
     {
         [OperationContract]
         bool MakeBooking(BookingData data);
 
-
+        [OperationContract]
+        IList<BookingData> ViewBookingsFrom(DateTime when);
     }
 
 
